@@ -1,0 +1,34 @@
+body {
+  background: white;
+}
+.Mammals {
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: dotted;
+  font-weight: bold;
+  background-color: lavenderblush;
+  color: #8b0000;
+}
+.Birds {
+  border-style: dotted;
+  font-style: italic;
+  background-color: lightgray;
+  color: blue;
+}
+.Fish {
+border-style: dotted;
+text-decoration: underline;
+background-color: lightyellow;
+  color: orange;
+}
+ul {
+  border-width: 3px;
+  color: plum;
+  border-radius: 5px;
+  border-style: dotted;
+}
+li {
+  border-top: 3px;
+  color: seagreen;
+  border-style: solid;
+} 
