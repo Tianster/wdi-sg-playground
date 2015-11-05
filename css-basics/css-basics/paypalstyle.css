@@ -1,0 +1,93 @@
+body {
+  background: url(http://www.oldnassoul.com/wp-content/uploads/2015/08/bedroom-design-images.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  padding-top: 200px;
+}
+header {
+  color: white;
+  display: block;
+  position: absolute;
+  top:0;
+  background-color: white;
+  width: 100%;
+}
+h1 {
+  font-size: 50px;
+  font-style: normal;
+  color: #009cde;
+}
+.pitch {
+  margin-top: 200px;
+  flex: none;
+  width: 660px;
+}
+h2 {
+  width: 500px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+a {
+  background-color: #009cde;
+  font-size: 25px;
+  color: white;
+  border-radius: 100px;
+}
+.mobilephone {
+  text-align: center;
+  width: 50%;
+  background-size: auto;
+  flex:none;
+}
+.mobilephone img{
+  height: 300px;
+  width: 300px;
+}
+.image-logo img {
+  height: 43px;
+  width: 143px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.image-logo {
+  display: inline-block;
+/*  background: url(https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.svg);
+  */background-color: transparent;
+​
+}
+.banner {
+  display:flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  color: #767676;
+}
+.heading .buy {
+  display: inline-block;
+​
+}
+.heading .sell {
+  display: inline-block;
+}
+.heading .send {
+  display: inline-block;
+}
+.heading .business {
+  display: inline-block;
+}
+button {
+  width: 75px;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.but-login {
+  background-color: #ddd;
+  -moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+}
+.but-sign {
+  background-color: #009cde;
+}
