@@ -4,12 +4,18 @@
   "description": "Tic taac Toe game ",
   "main": "Tictattoe.js",
   "scripts": {
+    "start": "npm run build && http-server game",
     "test": "standard",
-    "build": "browserify Tictattoe.js --outfile tictattoe.dist.js --transform babelify"
+    "clean": "rm -rf dist"
+    "build": "npm run clean && mkdir dist && npm run build-html && npm run build-css && npm run build-js",
+    "build-html": "cp game/index.html dist/index.html",
+    "build-css": "cp game/game.css dist/game.css",
+    "build-js": "browserify game/game.js --outfile dist/game.js --transform babelify"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tianster/wdi-sg-playground.git"
+
   },
   "keywords": [
     "tictactoe"
@@ -25,6 +31,7 @@
     "babel-preset-stage-0": "^6.1.2",
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
+    "http-server": "^0.8.5",
     "standard": "^5.3.1"
   }
 }
